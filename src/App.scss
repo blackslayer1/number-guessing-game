@@ -1,0 +1,37 @@
+$primary: rgb(45, 194, 174);
+$header: rgb(100, 0, 67);
+
+body{
+    text-align: center;
+}
+
+h2{
+    background: $header;
+    color: white;
+}
+
+.container{
+    position: relative;
+    background: $primary;
+    height: 468px;
+    width: 50%;
+    top: 30px;
+    left: 340px;
+}
+
+.submit{
+    margin-top: 30px;
+    width: 40%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background: yellow;
+}
+
+#showNumber{
+    position: relative;
+    visibility: hidden;
+    left: 20px;
+}
